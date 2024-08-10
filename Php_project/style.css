@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 70px;
+    border: solid rgb(3, 58, 3) 5px;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 4px rgba(2, 80, 9, 0.5);
+}
+
+input {
+    width: 380px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+select {
+    width: 380px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 5%;
+}
+
+.submit {
+    background-color: rgb(1, 1, 34);
+    color: white;
+    font-size: 20px;
+}
+
+.submit:hover {
+    background-color: rgb(9, 9, 49);
+    cursor: pointer;
+}
+
+body {
+    background-image: url(pc.png);
+    background-size: cover;
+    /* background-color: rgb(252, 233, 212); */
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Impact, 'Arial Narrow Bold';
+}
